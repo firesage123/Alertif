@@ -1,4 +1,5 @@
 <% provide(:title, @user.name) %>
+<div class="sendMessage">
 <div class="row">
   <aside class="col-md-4">
     <section class="user_info">
@@ -8,7 +9,7 @@
       </h1>
     </section>
   </aside>
-   <div class="col-md-8" style="width:350px">
+   <div class="col-md-8" style="width:350px; text-align: center; margin:0 auto;">
     <%= form_for(:session, url: send_text_message_path) do |f| %>
       <div class = "license">
          <%= f.label :License_Plate_Number %>
@@ -21,4 +22,5 @@
       <%= f.submit "Send Message", class: "btn btn-primary" %>
     <% end %>
   </div>
+</div>
 </div>

@@ -221,5 +221,26 @@ input {
 
 .msg input {
     color: $state-danger-text;
-  }
+}
 
+.license {
+  padding-top: 40px;
+}
+
+div.sendMessage {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://s13.postimg.org/qi8hl47yf/lights.jpg);
+  min-height: 400px;
+}
+
+.MSGSENT {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://s21.postimg.org/fedt7w0yv/lights2.jpg);
+  min-height: 400px;
+}
+
+.MSGSENT h1 {
+  padding-top: 150px;
+}
+
+.user_info {
+  padding-left: 5%;
+}
