@@ -164,7 +164,7 @@ input, textarea, select, .uneditable-input {
 }
 
 input {
-  height: auto !important;
+  height: auto;
 }
 
 #error_explanation {
@@ -207,3 +207,10 @@ input {
     border-bottom: 1px solid $gray-lighter;
   }
 }
+
+/* Message Box */
+
+.msg input {
+    color: $state-danger-text;
+  }
+
