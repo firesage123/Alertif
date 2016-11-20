@@ -1,7 +1,7 @@
 require 'rubygems' # not necessary with ruby 1.9 but included for completeness
 require 'twilio-ruby'
-
-# put your own credentials here
+# File not needed
+# put your own credentials here 
 account_sid = 'AC62e2fbdd4e525040a2ba75be63acc904'
 auth_token = 'e05696dc4e52734fc388bd05f018c3c3'
 
