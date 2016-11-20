@@ -1,3 +1,45 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+div.aboutInfo {
+    padding-top: 6%;
+    display: block;
+    padding-left: 45%;
+}
+
+div.abtImage {
+    float: left;
+    display: block;
+    padding-left: 7%;
+    padding-top: 10%;
+}
+
+div.about {
+    min-height: 600px;
+}
+
+div.pics {
+    padding-top: 6%;
+    padding-left: 6%;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+div.DevNames ul li{
+    display: inline;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-left: 130px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+div.bio ul li{
+    display: inline;
+    margin-left: 95px;
+    margin-right: 35px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+div.contact{
+    min-height: 600px;
+}
