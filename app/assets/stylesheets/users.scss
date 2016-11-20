@@ -1,3 +1,33 @@
-// Place all the styles related to the Users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+div.centerjumbotron {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://s18.postimg.org/eldxd6fy1/drive.jpg);
+    background-size: cover;
+     margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    min-height: 600px;
+}
+
+div.centerjumbotron div.logo {
+    display: block;
+    padding-top: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h3 {
+    display:block;
+    padding-left: 22%;
+    padding-right: 0px;
+    color: #ffffff;
+}
+
+div.centerjumbotron div.button {
+    display: block;
+    padding-top: 20px;
+    padding-left: 45%;
+}
