@@ -1,24 +1,13 @@
-# README
+#Alertif
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+WildHacks 2016 Project
 
-Things you may want to cover:
+By: James He, Allison Lu, and Byron Lee
 
-* Ruby version
+Updated: November 20, 2016
 
-* System dependencies
+Welcome to Alertif!
 
-* Configuration
+This is a Ruby on Rails web application that aims to anonymously alert car owners that something is wrong with their vehicle (i.e. accidently left headlights on). 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Alertif makes use of the Twilio API. Users provide their license plate and phone numbers when signing up and if they see a vehicle with its headlights on or someone left their kids in the car for too long, then users can enter in that vehicle's license plate number, write a message, and Alertif will match that license number to the corresponding owner's phone number and send a SMS text message.
